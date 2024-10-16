@@ -5,154 +5,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/UMSI_signature_vertical_informal_solidblue.jpg">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>University Health Services</title>
 </head>
 
 <body>
-    <div class="skiplinks">
-        <a href="#main" class="skiplinks__link visually-hidden focusable">Skip to main content</a>
-    </div>
-    <header class="site-header">
+    <header>
+        <div class="skip"><a href="">Skip to Main Content</a></div>
         <div class="site-header_logo">
-            <img src="/images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+            <img src="/images/logo-header.png" alt="UMSI Logo">
         </div>
-        <div class="l-constrain l-constrain--large">
-            <nav class="site-header__primary-nav">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="page1_advising.html">Academic Advising</a></li>
-                    <li class="active"><a href="page2_health.html">University Health Services (UHS)</a></li>
-                    <li><a href="page3_caps.html">CAPS</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="page1_advising.html">Academic Advising</a></li>
+                <li class="active"><a href="page2_health.html"><i class="arrow right"></i>University Health Services
+                        (UHS)</a></li>
+                <li style="border-bottom: none"><a href="page3_caps.html">CAPS</a></li>
+            </ul>
+        </nav>
     </header>
-    <main id="main" class="main">
-        <div class="l-lead-region">
-            <div>
-                <div>
-                    <div class="big-banner-hero font-size--regular banner-size--regular0">
-                        <img src="images/health_hero_banner.jpg" alt="hero banner" class="cover-image">
-                        <div class="l-constrain l-constrain--large">
-                            <div class="text-overlay left">
-                                <h1>University Health Services</h1>
-                                <div class="description">
-                                    <div>
-                                        <p>We care about your healh.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
-                </div>
-            </div>
+    <main class="container-health" id="main">
+        <div class="overview">
+            <h1>University Health Services</h1>
+            <p>At U of M, we provide accessible, high-quality health services to support your physical and mental
+                well-being. From medical consultations to counseling, we’re here to help you thrive.</p>
         </div>
-        <!-- <div class="l-breadcrumb">
-            <div class="l-constrain l-constrain--large">
-                <nav aria-labelled="breadcrumb-label" class="breadcrumb" role="navigation">
-                    <div class="l-constrain l-constrain--large">
-                        <h2 class="breadcrumb__title visually-hidden" id="breadcrumb-label">Breadcumb</h2>
-                        <ol class="breadcrumb__list">
-                            <li class="breadcrumb__item">
-                                <a class="breadcrumb__link" href="">Home</a>
-                            </li>
-                            <li class="breadcrumb__item">
-                                <span aria-current="page">University Health Services</span>
-                            </li>
-                        </ol>
-                    </div>
-                </nav>
-            </div>
-        </div> -->
-        <div class='l-content with-sidebar l-constrain l-constrain--large'>
-            <div>
-                <h2>About UHS</h2>
-                <p>
-                    UHS is your campus health and wellness resource, offering comprehensive clinical services plus
-                    support for your well-being. And most services are free for currently enrolled U-M students at the
-                    Ann Arbor campus.
-                </p>
-            </div>
-            <div class="node">
-                <header>
-                    <a href="https://uhs.umich.edu/clinicians">
+        <div class='main-texts'>
+            <h2>About UHS</h2>
+            <p>
+                UHS is your campus health and wellness resource, offering comprehensive clinical services plus
+                support for your well-being. And most services are free for currently enrolled U-M students at the
+                Ann Arbor campus.
+            </p>
+        </div>
+        <div class="cards health-card">
+            <div class="card" id="directory">
+                <a href="https://uhs.umich.edu/clinicians">
                     <h3>Clinical Directory</h3>
                 </a>
-                </header>
-                <div class="node__content clearfix">
-                    <div class="field field--name-field-image field--type-image field--label-hidden field__item"> <img src="images/health_clinicians.png" width="360" height="240"alt="clinicians equipement">
-                    </div>
-                    <div
-                        class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
-                        <p>Meet the health care providers at UHS!</p>
-                    </div>
+                <div class="card_image" id="tutoring">
+                    <img src="images/advising_tutor.png" alt="2 students talking">
+                </div>
+                <div class="directory">
+                    <p>Meet the health care providers at UHS!</p>
                 </div>
             </div>
-            <div class="node">
-                <header>
-                    <a href="https://uhs.umich.edu/hours">
-                        <h3>Our Hours</h3>
-                    </a>
-                </header>
-                <div class="node__content clearfix">
-                    <div class="field field--name-field-image field--type-image field--label-hidden field__item"> <img src="images/health_hours.png" width="360" height="240"alt="open banner">
-                    </div>
-                    <div
-                        class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
-                        <p>Find out when UHS is open, and what to do when it's not.
+            <div class="card" id="hours">
+                <a href="https://uhs.umich.edu/hours">
+                    <h3>Our Hours</h3>
+                </a>
+                <div class="card_image" id="hours">
+                    <img src="images/health_hours.png" alt="open banner">
+                </div>
+                <div class="hours">
+                    <p>Find out when UHS is open, and what to do when it's not.
                     </p>
-                    </div>
                 </div>
             </div>
-
         </div>
     </main>
-    <footer class="l-footer">
-        <div class="l-constrain l-constrain--large">
-            <div class="l-footer-section">
-                <div class="l-footer__first footer-brand">
-                    <div>
-                        <img class="site-logo_image" src="images/UMSI_signature_vertical_informal_solidblue.jpg"
-                            alt="UMSI logo">
-                    <div>
-                    <div class="footer-brand text">
-                        <ul>
-                            <li>Ann Arbor, MI 48109, US</li>
-                            <li>734-764-8320</li>
-                            <li>ContactUHS@med.umich.edu</li>
-                        </ul>
-                        <!-- <div class="footer-contact">
-                            <span class="footer-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 24 24" style="color: #ffcb05" xml:space="preserve" width="24" height="24"></svg>
-                            </span>
-                            <div class="footer-address">
-                                <span>
-                                    Ann Arbor, MI 48108, US
-                                </span>
-                            </div>
-                            <div class="footer-contact">
-                                <span class="footer-icon">
-                                    <svg src="images/marker.svg"></svg>
-                                </span>
-                                <div class="footer-address">
-                                    <span>
-                                        Phone number
-                                    </span>
-                                </div>
-                                <div class="footer-contact">
-                                    <span class="footer-icon">
-                                        <svg src="images/marker.svg"></svg>
-                                    </span>
-                                    <div class="footer-address">
-                                        <span>
-                                            Email
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
-                    </div>
+    <footer>
+        <img class="site-logo_image" src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI logo">
+        <div class="footer text">
+            <!-- <p>© Copyright 2024 Regents of the University of Michigan -->
+            <p>School of Information</p>
+            <p>University of Michigan</p>
+            <p>105 S State St.</p>
+            <p>Ann Arbor, MI 48109-1285</p>
+        </div>
+        <div class="small-texts">
+            <p>© Copyright 2024 Regents of the University of Michigan</p>
+        </div>
+        <a href="https://www.si.umich.edu/about-umsi/contact-us">Contact Us</a>
+        <a href="https://www.si.umich.edu/privacy-statement">Privacy Statement</a>
     </footer>
 </body>
+
 </html>
