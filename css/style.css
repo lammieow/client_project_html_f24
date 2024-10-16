@@ -94,7 +94,7 @@ img {
 }
 
 .container-index>div:first-child {
-    background-image: url("/images/index_main.JPG");
+    background-image: url("images/index_main.JPG");
     background-attachment: fixed;
     /* Parallax effect */
     background-position: center;
