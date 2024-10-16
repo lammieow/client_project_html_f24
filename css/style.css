@@ -94,7 +94,7 @@ img {
 }
 
 .container-index>div:first-child {
-    background-image: url("/images/index_main.jpeg");
+    background-image: url("https://lammieow.github.io/client_project_html_f24/images/index_main.jpeg");
     background-attachment: fixed;
     /* Parallax effect */
     background-position: center;
@@ -108,7 +108,7 @@ img {
 }
 
 .container-advising>div:first-child {
-    background-image: url("/images/advising_main.JPG");
+    background-image: url("https://lammieow.github.io/client_project_html_f24/images/advising_main.JPG");
     background-attachment: fixed;
     /* Parallax effect */
     background-position: center;
@@ -123,7 +123,7 @@ img {
 
 
 .container-health>div:first-child {
-    background-image: url("/images/health_main.jpeg");
+    background-image: url("https://lammieow.github.io/client_project_html_f24/images/health_main.jpeg");
     background-attachment: fixed;
     /* Parallax effect */
     background-position: center;
@@ -137,7 +137,7 @@ img {
 }
 
 .container-caps>div:first-child {
-    background-image: url("/images/caps_main.jpg");
+    background-image: url("https://lammieow.github.io/client_project_html_f24/images/caps_main.jpg");
     background-attachment: fixed;
     /* Parallax effect */
     background-position: center;
