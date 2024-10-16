@@ -123,7 +123,7 @@ img {
 
 
 .container-health>div:first-child {
-    background-image: url("images/health_main.JPG");
+    background-image: url("images/health_main.jpeg");
     background-attachment: fixed;
     /* Parallax effect */
     background-position: center;
