@@ -69,8 +69,11 @@
               help you make informed decisions. Our advisors work closely with students to ensure you stay on track for
               graduation, understand degree requirements, and maximize your university experience. Let us help you reach
               your full academic potential.
+              <br>
+              <a class="tertiary-button" href="page1_advising.html">View more</a>
+              </br>
             </p>
-            <a class="tertiary-button" href="page1_advising.html">View more</a>
+
           </div>
         </div>
       </div>
@@ -87,8 +90,9 @@
               while
               pursuing your studies. We also offer specialized services like sexual health education, nutrition
               counseling,
-              and flu clinics, so you can focus on achieving your academic goals with confidence.</p>
-            <a class="tertiary-button" href="page2_health.html">View more</a>
+              and flu clinics, so you can focus on achieving your academic goals with confidence.
+              <br><a class="tertiary-button" href="page2_health.html">View more</a></br>
+            </p>
           </div>
         </div>
       </div>
@@ -109,8 +113,9 @@
               dealing
               with stress, anxiety, depression, or personal concerns, our licensed counselors are here to offer
               individual
-              and group therapy sessions, workshops, and crisis intervention to support your emotional well-being.</p>
-            <a class="tertiary-button" href="page3_caps.html">View more</a>
+              and group therapy sessions, workshops, and crisis intervention to support your emotional well-being.
+              <br><a class="tertiary-button" href="page3_caps.html">View more</a></br>
+            </p>
           </div>
         </div>
       </div>
@@ -126,10 +131,16 @@
       <p>Ann Arbor, MI 48109-1285</p>
     </div>
     <div class="small-texts">
-      <p>© Copyright 2024 Regents of the University of Michigan</p>
+      <p>© Copyright <span id="year"></span> Regents of the University of Michigan</p>
+      <div class = "footer-links">
+        <a href="https://www.si.umich.edu/about-umsi/contact-us">Contact Us</a>
+        <a href="https://www.si.umich.edu/privacy-statement">Privacy Statement</a>
+      </div>
     </div>
-    <a href="https://www.si.umich.edu/about-umsi/contact-us">Contact Us</a>
-    <a href="https://www.si.umich.edu/privacy-statement">Privacy Statement</a>
+
+    <script>
+      document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
   </footer>
 </body>
 

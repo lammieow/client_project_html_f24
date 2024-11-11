@@ -21,7 +21,8 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="page1_advising.html">Academic Advising</a></li>
                 <li><a href="page2_health.html">University Health Services (UHS)</a></li>
-                <li class="active" style="border-bottom: none"><a href="page3_caps.html"><i class="arrow right"></i>CAPS</a></li>
+                <li class="active" style="border-bottom: none"><a href="page3_caps.html"><i
+                            class="arrow right"></i>CAPS</a></li>
             </ul>
         </nav>
     </header>
@@ -40,27 +41,33 @@
 
                 </p>
             </div>
-            <div>
-                <h2>Our work</h2>
-                <ul class="box">
-                    <li><a href ="https://caps.umich.edu/counseling">Clinical service delivery</a></li>
-                    <li><a href = "https://caps.umich.edu/outreach">Prevention and Education</a></li>
-                    <li><a href = "https://caps.umich.edu/article/come-rr-our-wellness-zone">Mental health wellness</a> </li>
-                    <li><a href ="https://caps.umich.edu/training">Training a new generation of professionals</a></li>
-                    <li style="border-bottom: none"><a href = "https://caps.umich.edu/article/caps-services-video-caps-student-advisory-board">Video about CAPS Services</a></li>
-                </ul>
+            <h2>Our work</h2>
+            <div class="box-grid">
+                <div>
+                    
+                    <ul class="box">
+                        <li><a href="https://caps.umich.edu/counseling">Clinical service delivery</a></li>
+                        <li><a href="https://caps.umich.edu/outreach">Prevention and Education</a></li>
+                        <li><a href="https://caps.umich.edu/article/come-rr-our-wellness-zone">Mental health
+                                wellness</a> </li>
+                        <li><a href="https://caps.umich.edu/training">Training a new generation of professionals</a>
+                        </li>
+                        <li style="border-bottom: none"><a
+                                href="https://caps.umich.edu/article/caps-services-video-caps-student-advisory-board">Video
+                                about CAPS Services</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="https://iacsinc.org/">
+                        <img src="images/caps_accredited.png"
+                            alt="International Accrediation of Counseling Services certificate">
+                    </a>
+                </div>
             </div>
-        </div>
-        <div>
-            <a href="https://iacsinc.org/">
-                <img src="images/caps_accredited.png"
-                    alt="International Accrediation of Counseling Services certificate">
-            </a>
-        </div>
-        <div class="text-block">
-            <h2>Learn more about us:</h2>
-            <a href = "https://caps.umich.edu/article/frequently-asked-questions-faqs">Frequently Ask Questions</a>
-         </div>
+            <div class="text-block">
+                <h2>Learn more about us:</h2>
+                <a href="https://caps.umich.edu/article/frequently-asked-questions-faqs">Frequently Ask Questions</a>
+            </div>
     </main>
     <footer>
         <img class="site-logo_image" src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI logo">
@@ -72,10 +79,13 @@
             <p>Ann Arbor, MI 48109-1285</p>
         </div>
         <div class="small-texts">
-            <p>© Copyright 2024 Regents of the University of Michigan</p>
+            <p>© Copyright <span id="year"></span> Regents of the University of Michigan</p>
         </div>
         <a href="https://www.si.umich.edu/about-umsi/contact-us">Contact Us</a>
         <a href="https://www.si.umich.edu/privacy-statement">Privacy Statement</a>
+        <script>
+            document.getElementById("year").innerHTML = new Date().getFullYear();
+        </script>
     </footer>
 </body>
 
