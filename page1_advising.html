@@ -49,9 +49,9 @@
         <div class=cards>
             <h3 id="support">We offer types of support such as:</h3>
             <div class="support-menu">
-                <button id="button1" onclick="Content_Accommodation(); Hide_Content_Tutoring(); Hide_Content_iSucess()">Accommodation</button>
-                <button id = "button2" onclick="Content_iSucess(); Hide_Content_Accommodation(); Hide_Content_Tutoring()">iSuccess</button>
-                <button id = "button3" onclick="Content_Tutoring(); Hide_Content_iSucess(); Hide_Content_Accommodation()">Tutoring</button>
+                <button id="button1" onclick="Content_Accommodation(); Hide_Content_Tutoring(); Hide_Content_iSuccess()">Accommodation</button>
+                <button id = "button2" onclick="Content_iSuccess(); Hide_Content_Accommodation(); Hide_Content_Tutoring()">iSuccess</button>
+                <button id = "button3" onclick="Content_Tutoring(); Hide_Content_iSuccess(); Hide_Content_Accommodation()">Tutoring</button>
             </div>
 
             <div class="advising-card" id="accommodation-support">
@@ -112,7 +112,7 @@
             }
           }
           
-          function Hide_Content_iSucess() {
+          function Hide_Content_iSuccess() {
             var x = document.getElementById("iSuccess");
             if (x.style.display === "grid") {
               x.style.display = "none";
@@ -121,7 +121,7 @@
             }
           }
           
-          function Content_iSucess() {
+          function Content_iSuccess() {
             var x = document.getElementById("iSuccess");
             if (x.style.display === "none") {
               x.style.display = "grid";
@@ -157,7 +157,7 @@
             }
           }
 
-          Hide_Content_iSucess();
+          Hide_Content_iSuccess();
           Hide_Content_Tutoring();
 
         </script>
