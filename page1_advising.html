@@ -49,17 +49,17 @@
         <div class=cards>
             <h3 id="support">We offer types of support such as:</h3>
             <div class="support-menu">
-                <button id="button1" onclick="Content_Accommodation(); Hide_Content_Tutoring(); Hide_Content_iSucess">Accommodation</button>
+                <button id="button1" onclick="Content_Accommodation(); Hide_Content_Tutoring(); Hide_Content_iSucess()">Accommodation</button>
                 <button id = "button2" onclick="Content_iSucess(); Hide_Content_Accommodation(); Hide_Content_Tutoring()">iSuccess</button>
                 <button id = "button3" onclick="Content_Tutoring(); Hide_Content_iSucess(); Hide_Content_Accommodation()">Tutoring</button>
             </div>
 
-            <div class="advising-card" id="acomodation-support">
+            <div class="advising-card" id="accommodation-support">
                 <h2>Accommodation Support</h2>
                 <div class="card_image">
                     <img src="images/advising_accomodation.png" alt="Buiding on campus">
                 </div>
-                <div class="acomodation-support text-block">
+                <div class="accommodation-support text-block">
                     <p>UMSI is committed to the academic success, access, professional
                         development and general well-being of all students. Information about
                         Services for Students with Disabilities (SSD) is available at
@@ -104,7 +104,7 @@
         </div>
         <script>
         function Content_Accommodation() {
-            var x = document.getElementById("acomodation-support");
+            var x = document.getElementById("accommodation-support");
             if (x.style.display === "none") {
               x.style.display = "grid";
             } else {
